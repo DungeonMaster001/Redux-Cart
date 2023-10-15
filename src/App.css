@@ -20,10 +20,10 @@
   border-radius: 4px;
   text-align: center;
   box-shadow: 5px 5px 2px #424344;
-  transition: transform .9s;
+  
 
 }
-.card:hover{
+.button:hover{
   transform: scale(1.15); 
 }
 button{
@@ -35,6 +35,7 @@ button{
   border-radius: 2px;
   margin-bottom: 2vh;
   font-size: 1vmax;
+  transition: transform .9s;
 }
 .cardParent{
   display: inline-block;
